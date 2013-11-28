@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0CD4B41846EF65001314C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0CD4B31846EF65001314C5 /* Foundation.framework */; };
+		3F0CD4B61846EF65001314C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0CD4B51846EF65001314C5 /* CoreGraphics.framework */; };
+		3F0CD4B81846EF65001314C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0CD4B71846EF65001314C5 /* UIKit.framework */; };
+		3F0CD4BE1846EF65001314C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4BC1846EF65001314C5 /* InfoPlist.strings */; };
+		3F0CD4C01846EF65001314C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CD4BF1846EF65001314C5 /* main.m */; };
+		3F0CD4C41846EF65001314C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CD4C31846EF65001314C5 /* AppDelegate.m */; };
+		3F0CD4C71846EF65001314C5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4C51846EF65001314C5 /* Main_iPhone.storyboard */; };
+		3F0CD4CA1846EF65001314C5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4C81846EF65001314C5 /* Main_iPad.storyboard */; };
+		3F0CD4CD1846EF65001314C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CD4CC1846EF65001314C5 /* ViewController.m */; };
+		3F0CD4CF1846EF65001314C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4CE1846EF65001314C5 /* Images.xcassets */; };
+		3F0CD4D61846EF65001314C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0CD4D51846EF65001314C5 /* XCTest.framework */; };
+		3F0CD4D71846EF65001314C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0CD4B31846EF65001314C5 /* Foundation.framework */; };
+		3F0CD4D81846EF65001314C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0CD4B71846EF65001314C5 /* UIKit.framework */; };
+		3F0CD4E01846EF65001314C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4DE1846EF65001314C5 /* InfoPlist.strings */; };
+		3F0CD4E21846EF65001314C5 /* timekeepingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CD4E11846EF65001314C5 /* timekeepingTests.m */; };
+		3F0CD5041846F074001314C5 /* 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4EC1846F074001314C5 /* 01.caf */; };
+		3F0CD5051846F074001314C5 /* 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4ED1846F074001314C5 /* 02.caf */; };
+		3F0CD5061846F074001314C5 /* 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4EE1846F074001314C5 /* 03.caf */; };
+		3F0CD5071846F074001314C5 /* 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4EF1846F074001314C5 /* 04.caf */; };
+		3F0CD5081846F074001314C5 /* 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F01846F074001314C5 /* 05.caf */; };
+		3F0CD5091846F074001314C5 /* 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F11846F074001314C5 /* 06.caf */; };
+		3F0CD50A1846F074001314C5 /* 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F21846F074001314C5 /* 07.caf */; };
+		3F0CD50B1846F074001314C5 /* 08.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F31846F074001314C5 /* 08.caf */; };
+		3F0CD50C1846F074001314C5 /* 09.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F41846F074001314C5 /* 09.caf */; };
+		3F0CD50D1846F074001314C5 /* 10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F51846F074001314C5 /* 10.caf */; };
+		3F0CD50E1846F074001314C5 /* 11.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F61846F074001314C5 /* 11.caf */; };
+		3F0CD50F1846F074001314C5 /* 12.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F71846F074001314C5 /* 12.caf */; };
+		3F0CD5101846F074001314C5 /* 13.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F81846F074001314C5 /* 13.caf */; };
+		3F0CD5111846F074001314C5 /* 14.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4F91846F074001314C5 /* 14.caf */; };
+		3F0CD5121846F074001314C5 /* 15.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4FA1846F074001314C5 /* 15.caf */; };
+		3F0CD5131846F074001314C5 /* 16.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4FB1846F074001314C5 /* 16.caf */; };
+		3F0CD5141846F074001314C5 /* 17.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4FC1846F074001314C5 /* 17.caf */; };
+		3F0CD5151846F074001314C5 /* 18.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4FD1846F074001314C5 /* 18.caf */; };
+		3F0CD5161846F074001314C5 /* 19.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4FE1846F074001314C5 /* 19.caf */; };
+		3F0CD5171846F074001314C5 /* 20.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD4FF1846F074001314C5 /* 20.caf */; };
+		3F0CD5181846F074001314C5 /* 21.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD5001846F074001314C5 /* 21.caf */; };
+		3F0CD5191846F074001314C5 /* 22.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD5011846F074001314C5 /* 22.caf */; };
+		3F0CD51A1846F074001314C5 /* 23.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD5021846F074001314C5 /* 23.caf */; };
+		3F0CD51B1846F074001314C5 /* 24.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CD5031846F074001314C5 /* 24.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0CD4D91846EF65001314C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0CD4A81846EF65001314C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0CD4AF1846EF65001314C5;
+			remoteInfo = timekeeping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0CD4B01846EF65001314C5 /* timekeeping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timekeeping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0CD4B31846EF65001314C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F0CD4B51846EF65001314C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F0CD4B71846EF65001314C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F0CD4BB1846EF65001314C5 /* timekeeping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timekeeping-Info.plist"; sourceTree = "<group>"; };
+		3F0CD4BD1846EF65001314C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F0CD4BF1846EF65001314C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F0CD4C11846EF65001314C5 /* timekeeping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "timekeeping-Prefix.pch"; sourceTree = "<group>"; };
+		3F0CD4C21846EF65001314C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0CD4C31846EF65001314C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F0CD4C61846EF65001314C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3F0CD4C91846EF65001314C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3F0CD4CB1846EF65001314C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F0CD4CC1846EF65001314C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F0CD4CE1846EF65001314C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F0CD4D41846EF65001314C5 /* timekeepingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timekeepingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0CD4D51846EF65001314C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F0CD4DD1846EF65001314C5 /* timekeepingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "timekeepingTests-Info.plist"; sourceTree = "<group>"; };
+		3F0CD4DF1846EF65001314C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F0CD4E11846EF65001314C5 /* timekeepingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timekeepingTests.m; sourceTree = "<group>"; };
+		3F0CD4EC1846F074001314C5 /* 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 01.caf; sourceTree = "<group>"; };
+		3F0CD4ED1846F074001314C5 /* 02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02.caf; sourceTree = "<group>"; };
+		3F0CD4EE1846F074001314C5 /* 03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 03.caf; sourceTree = "<group>"; };
+		3F0CD4EF1846F074001314C5 /* 04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04.caf; sourceTree = "<group>"; };
+		3F0CD4F01846F074001314C5 /* 05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 05.caf; sourceTree = "<group>"; };
+		3F0CD4F11846F074001314C5 /* 06.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 06.caf; sourceTree = "<group>"; };
+		3F0CD4F21846F074001314C5 /* 07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 07.caf; sourceTree = "<group>"; };
+		3F0CD4F31846F074001314C5 /* 08.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 08.caf; sourceTree = "<group>"; };
+		3F0CD4F41846F074001314C5 /* 09.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 09.caf; sourceTree = "<group>"; };
+		3F0CD4F51846F074001314C5 /* 10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.caf; sourceTree = "<group>"; };
+		3F0CD4F61846F074001314C5 /* 11.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 11.caf; sourceTree = "<group>"; };
+		3F0CD4F71846F074001314C5 /* 12.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12.caf; sourceTree = "<group>"; };
+		3F0CD4F81846F074001314C5 /* 13.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 13.caf; sourceTree = "<group>"; };
+		3F0CD4F91846F074001314C5 /* 14.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 14.caf; sourceTree = "<group>"; };
+		3F0CD4FA1846F074001314C5 /* 15.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 15.caf; sourceTree = "<group>"; };
+		3F0CD4FB1846F074001314C5 /* 16.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 16.caf; sourceTree = "<group>"; };
+		3F0CD4FC1846F074001314C5 /* 17.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 17.caf; sourceTree = "<group>"; };
+		3F0CD4FD1846F074001314C5 /* 18.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 18.caf; sourceTree = "<group>"; };
+		3F0CD4FE1846F074001314C5 /* 19.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 19.caf; sourceTree = "<group>"; };
+		3F0CD4FF1846F074001314C5 /* 20.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20.caf; sourceTree = "<group>"; };
+		3F0CD5001846F074001314C5 /* 21.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 21.caf; sourceTree = "<group>"; };
+		3F0CD5011846F074001314C5 /* 22.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 22.caf; sourceTree = "<group>"; };
+		3F0CD5021846F074001314C5 /* 23.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 23.caf; sourceTree = "<group>"; };
+		3F0CD5031846F074001314C5 /* 24.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 24.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0CD4AD1846EF65001314C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CD4B61846EF65001314C5 /* CoreGraphics.framework in Frameworks */,
+				3F0CD4B81846EF65001314C5 /* UIKit.framework in Frameworks */,
+				3F0CD4B41846EF65001314C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CD4D11846EF65001314C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CD4D61846EF65001314C5 /* XCTest.framework in Frameworks */,
+				3F0CD4D81846EF65001314C5 /* UIKit.framework in Frameworks */,
+				3F0CD4D71846EF65001314C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0CD4A71846EF65001314C5 = {
+			isa = PBXGroup;
+			children = (
+				3F0CD4B91846EF65001314C5 /* timekeeping */,
+				3F0CD4DB1846EF65001314C5 /* timekeepingTests */,
+				3F0CD4B21846EF65001314C5 /* Frameworks */,
+				3F0CD4B11846EF65001314C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0CD4B11846EF65001314C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CD4B01846EF65001314C5 /* timekeeping.app */,
+				3F0CD4D41846EF65001314C5 /* timekeepingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0CD4B21846EF65001314C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CD4B31846EF65001314C5 /* Foundation.framework */,
+				3F0CD4B51846EF65001314C5 /* CoreGraphics.framework */,
+				3F0CD4B71846EF65001314C5 /* UIKit.framework */,
+				3F0CD4D51846EF65001314C5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F0CD4B91846EF65001314C5 /* timekeeping */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CD4EB1846F074001314C5 /* timeAudio */,
+				3F0CD4C21846EF65001314C5 /* AppDelegate.h */,
+				3F0CD4C31846EF65001314C5 /* AppDelegate.m */,
+				3F0CD4C51846EF65001314C5 /* Main_iPhone.storyboard */,
+				3F0CD4C81846EF65001314C5 /* Main_iPad.storyboard */,
+				3F0CD4CB1846EF65001314C5 /* ViewController.h */,
+				3F0CD4CC1846EF65001314C5 /* ViewController.m */,
+				3F0CD4CE1846EF65001314C5 /* Images.xcassets */,
+				3F0CD4BA1846EF65001314C5 /* Supporting Files */,
+			);
+			path = timekeeping;
+			sourceTree = "<group>";
+		};
+		3F0CD4BA1846EF65001314C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CD4BB1846EF65001314C5 /* timekeeping-Info.plist */,
+				3F0CD4BC1846EF65001314C5 /* InfoPlist.strings */,
+				3F0CD4BF1846EF65001314C5 /* main.m */,
+				3F0CD4C11846EF65001314C5 /* timekeeping-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F0CD4DB1846EF65001314C5 /* timekeepingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CD4E11846EF65001314C5 /* timekeepingTests.m */,
+				3F0CD4DC1846EF65001314C5 /* Supporting Files */,
+			);
+			path = timekeepingTests;
+			sourceTree = "<group>";
+		};
+		3F0CD4DC1846EF65001314C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CD4DD1846EF65001314C5 /* timekeepingTests-Info.plist */,
+				3F0CD4DE1846EF65001314C5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F0CD4EB1846F074001314C5 /* timeAudio */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CD4EC1846F074001314C5 /* 01.caf */,
+				3F0CD4ED1846F074001314C5 /* 02.caf */,
+				3F0CD4EE1846F074001314C5 /* 03.caf */,
+				3F0CD4EF1846F074001314C5 /* 04.caf */,
+				3F0CD4F01846F074001314C5 /* 05.caf */,
+				3F0CD4F11846F074001314C5 /* 06.caf */,
+				3F0CD4F21846F074001314C5 /* 07.caf */,
+				3F0CD4F31846F074001314C5 /* 08.caf */,
+				3F0CD4F41846F074001314C5 /* 09.caf */,
+				3F0CD4F51846F074001314C5 /* 10.caf */,
+				3F0CD4F61846F074001314C5 /* 11.caf */,
+				3F0CD4F71846F074001314C5 /* 12.caf */,
+				3F0CD4F81846F074001314C5 /* 13.caf */,
+				3F0CD4F91846F074001314C5 /* 14.caf */,
+				3F0CD4FA1846F074001314C5 /* 15.caf */,
+				3F0CD4FB1846F074001314C5 /* 16.caf */,
+				3F0CD4FC1846F074001314C5 /* 17.caf */,
+				3F0CD4FD1846F074001314C5 /* 18.caf */,
+				3F0CD4FE1846F074001314C5 /* 19.caf */,
+				3F0CD4FF1846F074001314C5 /* 20.caf */,
+				3F0CD5001846F074001314C5 /* 21.caf */,
+				3F0CD5011846F074001314C5 /* 22.caf */,
+				3F0CD5021846F074001314C5 /* 23.caf */,
+				3F0CD5031846F074001314C5 /* 24.caf */,
+			);
+			path = timeAudio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0CD4AF1846EF65001314C5 /* timekeeping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0CD4E51846EF65001314C5 /* Build configuration list for PBXNativeTarget "timekeeping" */;
+			buildPhases = (
+				3F0CD4AC1846EF65001314C5 /* Sources */,
+				3F0CD4AD1846EF65001314C5 /* Frameworks */,
+				3F0CD4AE1846EF65001314C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timekeeping;
+			productName = timekeeping;
+			productReference = 3F0CD4B01846EF65001314C5 /* timekeeping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0CD4D31846EF65001314C5 /* timekeepingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0CD4E81846EF65001314C5 /* Build configuration list for PBXNativeTarget "timekeepingTests" */;
+			buildPhases = (
+				3F0CD4D01846EF65001314C5 /* Sources */,
+				3F0CD4D11846EF65001314C5 /* Frameworks */,
+				3F0CD4D21846EF65001314C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0CD4DA1846EF65001314C5 /* PBXTargetDependency */,
+			);
+			name = timekeepingTests;
+			productName = timekeepingTests;
+			productReference = 3F0CD4D41846EF65001314C5 /* timekeepingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0CD4A81846EF65001314C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = 29n;
+				TargetAttributes = {
+					3F0CD4D31846EF65001314C5 = {
+						TestTargetID = 3F0CD4AF1846EF65001314C5;
+					};
+				};
+			};
+			buildConfigurationList = 3F0CD4AB1846EF65001314C5 /* Build configuration list for PBXProject "timekeeping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0CD4A71846EF65001314C5;
+			productRefGroup = 3F0CD4B11846EF65001314C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0CD4AF1846EF65001314C5 /* timekeeping */,
+				3F0CD4D31846EF65001314C5 /* timekeepingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0CD4AE1846EF65001314C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CD5191846F074001314C5 /* 22.caf in Resources */,
+				3F0CD5121846F074001314C5 /* 15.caf in Resources */,
+				3F0CD50C1846F074001314C5 /* 09.caf in Resources */,
+				3F0CD50F1846F074001314C5 /* 12.caf in Resources */,
+				3F0CD51B1846F074001314C5 /* 24.caf in Resources */,
+				3F0CD5091846F074001314C5 /* 06.caf in Resources */,
+				3F0CD5051846F074001314C5 /* 02.caf in Resources */,
+				3F0CD5131846F074001314C5 /* 16.caf in Resources */,
+				3F0CD50D1846F074001314C5 /* 10.caf in Resources */,
+				3F0CD50A1846F074001314C5 /* 07.caf in Resources */,
+				3F0CD50E1846F074001314C5 /* 11.caf in Resources */,
+				3F0CD5151846F074001314C5 /* 18.caf in Resources */,
+				3F0CD5181846F074001314C5 /* 21.caf in Resources */,
+				3F0CD5041846F074001314C5 /* 01.caf in Resources */,
+				3F0CD5071846F074001314C5 /* 04.caf in Resources */,
+				3F0CD5061846F074001314C5 /* 03.caf in Resources */,
+				3F0CD5161846F074001314C5 /* 19.caf in Resources */,
+				3F0CD50B1846F074001314C5 /* 08.caf in Resources */,
+				3F0CD5111846F074001314C5 /* 14.caf in Resources */,
+				3F0CD5171846F074001314C5 /* 20.caf in Resources */,
+				3F0CD4CA1846EF65001314C5 /* Main_iPad.storyboard in Resources */,
+				3F0CD5101846F074001314C5 /* 13.caf in Resources */,
+				3F0CD4CF1846EF65001314C5 /* Images.xcassets in Resources */,
+				3F0CD5141846F074001314C5 /* 17.caf in Resources */,
+				3F0CD5081846F074001314C5 /* 05.caf in Resources */,
+				3F0CD4C71846EF65001314C5 /* Main_iPhone.storyboard in Resources */,
+				3F0CD51A1846F074001314C5 /* 23.caf in Resources */,
+				3F0CD4BE1846EF65001314C5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CD4D21846EF65001314C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CD4E01846EF65001314C5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0CD4AC1846EF65001314C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CD4CD1846EF65001314C5 /* ViewController.m in Sources */,
+				3F0CD4C41846EF65001314C5 /* AppDelegate.m in Sources */,
+				3F0CD4C01846EF65001314C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CD4D01846EF65001314C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CD4E21846EF65001314C5 /* timekeepingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0CD4DA1846EF65001314C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0CD4AF1846EF65001314C5 /* timekeeping */;
+			targetProxy = 3F0CD4D91846EF65001314C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0CD4BC1846EF65001314C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0CD4BD1846EF65001314C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F0CD4C51846EF65001314C5 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0CD4C61846EF65001314C5 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0CD4C81846EF65001314C5 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0CD4C91846EF65001314C5 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0CD4DE1846EF65001314C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0CD4DF1846EF65001314C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0CD4E31846EF65001314C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0CD4E41846EF65001314C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0CD4E61846EF65001314C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timekeeping/timekeeping-Prefix.pch";
+				INFOPLIST_FILE = "timekeeping/timekeeping-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F0CD4E71846EF65001314C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timekeeping/timekeeping-Prefix.pch";
+				INFOPLIST_FILE = "timekeeping/timekeeping-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F0CD4E91846EF65001314C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/timekeeping.app/timekeeping";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timekeeping/timekeeping-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "timekeepingTests/timekeepingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F0CD4EA1846EF65001314C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/timekeeping.app/timekeeping";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "timekeeping/timekeeping-Prefix.pch";
+				INFOPLIST_FILE = "timekeepingTests/timekeepingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0CD4AB1846EF65001314C5 /* Build configuration list for PBXProject "timekeeping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0CD4E31846EF65001314C5 /* Debug */,
+				3F0CD4E41846EF65001314C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0CD4E51846EF65001314C5 /* Build configuration list for PBXNativeTarget "timekeeping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0CD4E61846EF65001314C5 /* Debug */,
+				3F0CD4E71846EF65001314C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F0CD4E81846EF65001314C5 /* Build configuration list for PBXNativeTarget "timekeepingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0CD4E91846EF65001314C5 /* Debug */,
+				3F0CD4EA1846EF65001314C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0CD4A81846EF65001314C5 /* Project object */;
+}
